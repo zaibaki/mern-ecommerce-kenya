@@ -47,6 +47,9 @@ const Footer = () => {
             </div>
             <div className='block-content'>
               <ul>{footerLinks}</ul>
+              <p className="footer-phone">
+                Call us: <a href="tel:+254700123456">+254 700 123 456</a>
+              </p>
             </div>
           </div>
           <div className='footer-block'>

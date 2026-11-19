@@ -28,6 +28,9 @@ class Contact extends React.PureComponent {
       <div className='contact'>
         <h3 className='text-uppercase'>Contact Information</h3>
         <hr />
+        <p className="mb-3">
+          Call us: <a href="tel:+254700123456">+254 700 123 456</a>
+        </p>
         <form onSubmit={handleSubmit}>
           <Row>
             <Col xs='12' md='6'>

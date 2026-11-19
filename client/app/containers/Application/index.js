@@ -16,7 +16,6 @@ import actions from '../../actions';
 import Login from '../Login';
 import Signup from '../Signup';
 import MerchantSignup from '../MerchantSignup';
-import HomePage from '../Homepage';
 import Dashboard from '../Dashboard';
 import Support from '../Support';
 import Navigation from '../Navigation';
@@ -81,7 +80,7 @@ class Application extends React.PureComponent {
           <Container>
             <div className='wrapper'>
               <Switch>
-                <Route exact path='/' component={HomePage} />
+                <Route exact path='/' component={Shop} />
                 <Route path='/shop' component={Shop} />
                 <Route path='/sell' component={Sell} />
                 <Route path='/contact' component={Contact} />

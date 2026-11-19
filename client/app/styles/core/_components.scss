@@ -120,4 +120,16 @@
     }
   }
 }
+/* price range marks: keep labels on one line; right-align the max
+   label to the track end so it never wraps or collides with the min label */
+.price-range {
+  .rc-slider-mark-text {
+    white-space: nowrap;
+  }
+
+  .rc-slider-mark-text:last-child {
+    transform: translateX(-100%) !important;
+  }
+}
+
 /* end slider styles */
